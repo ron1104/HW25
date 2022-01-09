@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Huiswerk Les 25</title>
+  <script src="http://code.jquery.com/jquery-3.1.0.min.js"></script>
+  <script src="http://code.jquery.com/ui/1.12.0/jquery-ui.min.js"></script>
+    <link rel="stylesheet" href="http://code.jquery.com/ui/1.12.0/themes/base/jquery-ui.css">
+    <script type="text/javascript">
+      $(document).ready(function() {
+        $(function() {
+        $("#accordion").accordion();
+        });
+        $("#knop").click(function() {
+          var naam = $("#idTekstveld").val();
+          window.alert("Hallo " + naam);
+        });
+      });
+  </script>
+  <body>
+    <div id="accordion">
+      <h3>Rotterdam</h3>
+      <div>
+        <p>Rotterdam is een havenstad in het westen van Nederland, in de provincie Zuid-Holland. Met 588.490 inwoners (1 januari 2021) is het de op een na grootste stad van Nederland qua
+          inwoneraantal, na Amsterdam. De gehele gemeente Rotterdam telt 651.284 inwoners, en de nog grotere metropoolregio Rotterdam Den Haag telt meer dan 2,3 miljoen inwoners.<br>
+          Rotterdam dankt zijn naam aan een dam in de rivier de Rotte. De stad ligt aan de Nieuwe Maas, een van de rivieren in de delta die gevormd wordt door de Rijn en de Maas.
+          De haven van Rotterdam was lange tijd de grootste ter wereld en is nog altijd de grootste en belangrijkste van Europa. Het havengebied strekt zich uit over een lengte van 40 kilometer
+          en is een belangrijk logistiek en economisch centrum. Mede vanwege de havenindustrie heeft Rotterdam het imago van een arbeidersstad en kent de stad een zeer diverse bevolking.</p>
+      </div>
+      <h3>Utrecht</h3>
+        <div>
+          <p>Utrecht is een stad en gemeente in Nederland en de hoofdstad van de provincie Utrecht. Met 358.974 inwoners op 1 juli 2021 is Utrecht qua inwonertal de vierde gemeente van Nederland.
+            Deze inwoners zijn verdeeld over vier woonplaatsen, te weten Utrecht met 308.965, Haarzuilens met 555, Vleuten met 27.810 en De Meern met 21.815 inwoners. De agglomeratie Utrecht telde
+            per 1 januari 2019 712.700 inwoners.
+
+            Utrecht is een van de oudste steden van Nederland. Het is ontstaan als een Romeinse fortificatie aan de Limes. In de zevende eeuw werd op de plaats waar dit fort zich bevond een kerkje gebouwd
+            en in de eeuwen erna verrezen hier grotere kerken. Van daaruit werden grote delen van het huidige Nederland gekerstend.
+            In 1122 kreeg Utrecht als een van de eerste steden in het huidige Nederland stadsrechten. Dankzij zijn ligging aan de rivier de Rijn groeide Utrecht in de 13e en 14e eeuw uit tot
+            een van de belangrijkste handelssteden van Europa. Met de opkomst van het graafschap Holland verplaatste deze handel zich daarheen en werd Utrecht minder belangrijk,
+            hoewel Utrecht tot in het begin van de 16e eeuw de grootste stad van Nederland bleef. In het jaar 1808 was Utrecht kortstondig de hoofdstad van het Koninkrijk Holland.
+            Ten tijde van de industriële revolutie was Utrecht het centrum van de nationale staal- en spoorwegindustrie.</p>
+        </div>
+      </div><br>
+      <form>Wat is uw naam?
+        <input type="text" id="idTekstveld">
+        <input id="knop" name="knop" type="button"
+        value="Klik op deze knop">
+      </form>
+      <noscript>Om deze website optimaal te gebruiken is het noodzakelijk om JavaScript te activeren.</noscript>
+    </body>
+</head>
+</html>
